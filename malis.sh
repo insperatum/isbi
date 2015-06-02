@@ -1,4 +1,4 @@
-if [ -z "$8" ]; then echo "Please give 9 arguments:"; echo "subvolumes_train, loadModel, dimOffsets, maxBins, iterations, learningRate, maxDepth, subsampleProportion, featureSubsetStrategy"; exit 1; fi
+if [ -z "$9" ]; then echo "Please give 9 arguments:"; echo "subvolumes_train, loadModel, dimOffsets, maxBins, iterations, learningRate, maxDepth, subsampleProportion, featureSubsetStrategy"; exit 1; fi
 source ~/isbi/subvolumes.sh
 ~/isbi/clear.sh;
 dt=$(date '+%Y%m%d_%H%M%S');
